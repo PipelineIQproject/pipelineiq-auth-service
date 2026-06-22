@@ -17,7 +17,7 @@ jobs:
       node_project_dir: services/auth-service
       chart_path: auth-service
       container_port: "8081"
-      smoke_mode: http
+      smoke_mode: command
       sonar_organization: pipelineiqproject
       sonar_project_key: pipelineiq-auth-service
     secrets: inherit
