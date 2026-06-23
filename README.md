@@ -8,7 +8,7 @@ Independent repository for the PipelineIQ authentication API.
 docker build -t <acr-login-server>/final_capstone-auth-service:local -f services/auth-service/Dockerfile .
 ```
 
-## Local Run
+## Local Run 
 
 This service expects PipelineIQ environment variables from Kubernetes ConfigMap and Key Vault secrets.
  
