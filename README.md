@@ -6,7 +6,7 @@ Independent repository for the PipelineIQ authentication API.
 
 ```bash
 docker build -t <acr-login-server>/final_capstone-auth-service:local -f services/auth-service/Dockerfile .
-```
+``` 
 
 ## Local Run  
 
